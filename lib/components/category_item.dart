@@ -3,7 +3,8 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
 
 import 'package:meals/models/category.dart';
-import 'package:meals/screens/categories_meals_screen.dart';
+// import 'package:meals/screens/categories_meals_screen.dart';
+import '../utils/app_routes.dart';
 
 class CategoryItem extends StatelessWidget {
   final Category category;
@@ -33,7 +34,7 @@ class CategoryItem extends StatelessWidget {
     // =========== CHAMADA DE ROTA NOMEADA ========================================
 
     Navigator.of(context).pushNamed(
-      '/categories-meals',
+      AppRoutes.CATEGORIES_MEALS,
       arguments: category,
     );
   }
@@ -46,9 +47,9 @@ class CategoryItem extends StatelessWidget {
       borderRadius: BorderRadius.circular(15),
       child: Container(
         padding: EdgeInsets.all(15),
-        child: Text(category.title),
+        child: Text(category.title,),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(15),
+          borderRadius: BorderRadius.circular(10),
           gradient: LinearGradient(
             colors: [
               category.color.withOpacity(0.5),
