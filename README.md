@@ -4,7 +4,9 @@
 💻 App desenvolvido durante o curso de FLUTTER da COD3R instruído pelo professor Leonardo Moura Leitão. Aqui você poderá ver minhas competências e o que aprendi durante o período de aprendizado no curso. Espero que goste!
 
 Leonardo Moura na Udemy: https://www.udemy.com/user/leonardomouraleitao/
+---------------------------------------------------------------------------
 Leonardo Moura no Linkedin: https://www.linkedin.com/in/leonardo-leit%C3%A3o-8a5813186/
+---------------------------------------------------------------------------
 Curso: https://www.udemy.com/course/curso-flutter/
 
 
