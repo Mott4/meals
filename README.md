@@ -8,6 +8,7 @@ Leonardo Moura na Udemy: https://www.udemy.com/user/leonardomouraleitao/
 Leonardo Moura no Linkedin: https://www.linkedin.com/in/leonardo-leit%C3%A3o-8a5813186/
 ---------------------------------------------------------------------------
 Curso: https://www.udemy.com/course/curso-flutter/
+---------------------------------------------------------------------------
 
 
 # Escopo
