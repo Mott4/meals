@@ -23,15 +23,17 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   Settings settings = Settings();
   List<Meal> _availableMeals = DUMMY_MEALS;
+  List<Meal> _favoriteMeals = [];
 
-// ======================================================================================
-// ======================================================================================
+  // ======================================================================================
+  // filtrar comidas
+  // ======================================================================================
   void _filterMeals(Settings settings) {
     setState(() {
-      // ================================================================================
+      // ==================================================================================
       // altero as configurações
       this.settings = settings;
-      // ================================================================================
+      // ==================================================================================
       // altero as comidas disponíveis
       _availableMeals = DUMMY_MEALS.where((meal) {
         final filterGluten = settings.isGlutenFree && !meal.isGlutenFree;
@@ -43,8 +45,14 @@ class _MyAppState extends State<MyApp> {
       }).toList();
     });
   }
-// ======================================================================================
-// ======================================================================================
+
+  // ===================================================================================
+  void _toggleFavorite(Meal meal) {
+    setState(() {
+      _favoriteMeals.contains(meal) ? _favoriteMeals.remove(meal) : _favoriteMeals.add(meal);
+    });
+  }
+  // ===================================================================================
 
   @override
   Widget build(BuildContext context) {
@@ -67,9 +75,9 @@ class _MyAppState extends State<MyApp> {
             ),
       ),
       routes: {
-        AppRoutes.HOME: (context) => TabsScreen(),
+        AppRoutes.HOME: (context) => TabsScreen(_favoriteMeals),
         AppRoutes.CATEGORIES_MEALS: (context) => CategoriesMealsScreen(_availableMeals),
-        AppRoutes.MEAL_DETAIL: (context) => MealDetailScreen(),
+        AppRoutes.MEAL_DETAIL: (context) => MealDetailScreen(_toggleFavorite),
         AppRoutes.SETTINGS: (context) => SettingsScreen(settings, _filterMeals),
       },
       // ======================================================================================
