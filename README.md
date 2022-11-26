@@ -16,11 +16,10 @@
 * Curso: https://www.udemy.com/course/curso-flutter/
 
 
-# Imagens
-📷 Neste momento, eu não possuo imagens, no entanto, em breve irei disponibilizar.
-![Screenshot_1668867465](https://user-images.githubusercontent.com/93683859/204098370-3ce3fbb1-a82f-415a-a300-1914eb6c00d5.png)
-![Screenshot_1668867468](https://user-images.githubusercontent.com/93683859/204098371-3da68ed3-f5f5-4d40-8aaa-13402547c816.png)
+# Imagens 📷
 ![Screenshot_1669479349](https://user-images.githubusercontent.com/93683859/204098372-625da3eb-23e9-4b06-b289-5f5aa5478ca9.png)
+![Screenshot_1668867468](https://user-images.githubusercontent.com/93683859/204098371-3da68ed3-f5f5-4d40-8aaa-13402547c816.png)
+![Screenshot_1668867465](https://user-images.githubusercontent.com/93683859/204098370-3ce3fbb1-a82f-415a-a300-1914eb6c00d5.png)
 ![Screenshot_1669479360](https://user-images.githubusercontent.com/93683859/204098405-20f55eaa-e4bf-48d2-8061-079c34199514.png)
 ![Screenshot_1669479363](https://user-images.githubusercontent.com/93683859/204098410-2647731c-6d3f-4b66-ba30-d4e7e4af717b.png)
  
